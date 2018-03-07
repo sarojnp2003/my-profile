@@ -1,0 +1,270 @@
+:host {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+h1,
+h2,
+p {
+  font-family: 'Montserrat-Medium', sans-serif;
+}
+
+hr {
+  height: 2px;
+  width: 60px;
+  background: #00947c;
+  position: relative;
+  border: 0;
+  margin: 30px 0 0 0;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg5 {
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url('/assets/parallax/image1.jpeg');
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url('/assets/parallax/services.jpg');
+  min-height: 500px;
+}
+
+.pimg3 {
+  background-image: url('/assets/parallax/image3.jpg');
+  min-height: 400px;
+}
+
+.img4 {
+  background: url('/assets/parallax/achivements-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 80px;
+}
+
+.pimg5 {
+  background-image: url('/assets/parallax/contact_bg.jpg');
+  min-height: 500px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #fff;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.intro-heading-text {
+  position: relative;
+  padding-top: 400px;
+  padding-left: 50px;
+  padding-bottom: 220px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+/* About Section */
+
+#about-section {}
+
+#about-section .container {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  /* background: url('/assets/parallax/about-me.jpg') right no-repeat;
+  background-size: auto 100%; */
+}
+
+.section-title {
+  padding-top: 10px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.about-me-desc {
+  text-align: justify;
+}
+
+.about-me-img {
+  background-size: auto 100%;
+}
+
+.about-me-image {
+  margin-top: -12%;
+  height: 400px;
+  width: 100%;
+}
+
+.about-me-para-desc {
+  font-size: 14px;
+}
+
+/* service section */
+
+#service-section .container {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  /* background: url('/assets/parallax/about-me.jpg') right no-repeat;
+  background-size: auto 100%; */
+}
+
+.section-title-services {
+  padding-top: 20px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.service-desc {
+  text-align: justify;
+  font-size: 14px;
+  color: #4c4343;
+}
+
+#services-section i.fa {
+  border: 2px solid #00947c;
+  border-radius: 50%;
+  color: #00947c;
+  font-size: 26px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  -webkit-transition: transform 0.4s ease-in-out;
+  -moz-transition: transform 0.4s ease-in-out;
+  -o-transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  margin-top: 10px;
+}
+
+#services-section i.fa-mobile {
+  font-size: 36px;
+}
+
+#services-section .service:hover i.fa {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+/* Acheivements */
+
+.achievement-box {}
+
+.achievement-box h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: 300;
+  /* margin-left: 5px; */
+  padding-top: 20px;
+}
+
+.achievement-box span.count {
+  font-size: 52px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0;
+  margin: 0;
+}
+
+/* Portfolio Section */
+
+.home-projects {
+  background-color: #fff;
+}
+
+.section-title-portfolio {
+  padding-right: 0;
+  padding-left: 0;
+  color: black;
+  text-align: left;
+}
+
+.carousel {
+  background-color: #333;
+}
+
+.portfolio-heading {
+  color: #fff;
+  line-height: 160%;
+  letter-spacing: 0.5px;
+}
+
+.portfolio-desc {
+  color: #fff;
+  padding-right: 45px;
+  line-height: 160%;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  padding-bottom: 10px;                    
+  
+}
+
+
+/* Contact Me */
+.section-title-contact-me {
+  padding-top: 20px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.contact-me-desc {
+  color: #fff;
+  line-height: 160%;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+
+@media(max-width:568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3,
+  .img4,
+  .pimg5 {
+    background-attachment: scroll;
+  }
+}
